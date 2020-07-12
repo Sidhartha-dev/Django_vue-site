@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  background-color: #a2d9ff;
+}
+
+.hw2 {
+  display: flex;
+  padding-top: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+.logo {
+  flex: 1;
+}
+.menu-itm {
+  display: flex;
+  flex: 2;
+}
+
+.search-log {
+  display: flex;
+  flex: 1;
+}
+
+.search-log li {
+  flex: 1;
+}
+
+li {
+  list-style-type: none;
+  flex: 1;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+li a.lin {
+  border: transparent;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background-color: rgb(70, 0, 35);
+  color: aliceblue;
+  cursor: pointer;
+  transform: translateY(0);
+}
+
+li a.lin:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  transform: translateY(-10);
+}
+
+.tol {
+  padding-top: 35vh;
+  letter-spacing: 4px;
+  font-weight: 900;
+  font-size: 33px;
+  color: darkmagenta;
+}
+
+.lol {
+  color: rgb(219, 0, 73);
+  font-size: 20px;
+}
+
+a.btn2 {
+  background: rgb(143, 0, 71);
+  color: rgb(247, 247, 247);
+}
+
+a.btn2:hover {
+  color: rgb(200, 221, 122);
+}
+
+.rounded-option {
+  border-radius: 15px;
+}
+
+.resize {
+  transform: translateY(-30px);
+}
+
+img.ex {
+  height: 230px;
+  width: 230px;
+  border-radius: 30px;
+  transform: translateY(-30px);
+  border: 4px solid rgb(166, 144, 207);
+}
+
+.ngx {
+  transform: translateY(0);
+}
+
+.ngx:hover {
+  transform: translateY(-20px);
+  transition-duration: 1s;
+  box-shadow: -2px 50px 92px 2px rgba(0, 0, 0, 0.75);
+}
+
+.last1 {
+  background-color: #5000ca;
+  opacity: 1;
+}
+
+.vfx {
+  border-radius: 15px;
+}
+
+.form-control {
+  border-color: hotpink;
+}
+
+button.btn3 {
+  background-color: rgb(52, 24, 206);
+}
+
+.lfx {
+  border-radius: 22px;
+  background: #00f91c82;
+}
+
+.lofx {
+  border-radius: 22px;
+  background: #a2a1a882;
+}
+
+.nomon {
+  margin-top: 0;
+}
+.reg-1 {
+  background-image: linear-gradient(
+    60deg,
+    rgb(231, 231, 147),
+    rgb(110, 235, 110),
+    rgb(190, 144, 57)
+  );
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+}
+
+button.dsa-close {
+  display: none;
+  position: relative;
+}
+
+.dsa-open {
+  display: block;
+}

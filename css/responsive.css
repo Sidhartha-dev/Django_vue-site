@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  .hw {
+    display: flex;
+  }
+  div.line {
+    width: 30px;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin: 9px;
+  }
+
+  div.line1 {
+    width: 25px;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin: 9px;
+  }
+
+  .hw2 {
+    position: relative;
+  }
+
+  .res-menu {
+    position: absolute;
+    right: 3%;
+    top: 8%;
+    cursor: pointer;
+    z-index: 2;
+    transform: translate(-5%, -5%);
+    padding-top: 4%;
+  }
+
+  .menu-itm {
+    display: none;
+  }
+
+  .menu-itm.open {
+    position: absolute;
+    background-image: linear-gradient(35deg, rgb(34, 32, 34), rgb(155, 3, 79));
+    height: 50vh;
+    width: 80%;
+    flex-direction: column;
+    padding-left: 10%;
+    margin-left: 20%;
+    display: flex;
+    margin-top: 10%;
+    padding-top: 10px;
+  }
+
+  li a {
+    color: blanchedalmond;
+  }
+}
